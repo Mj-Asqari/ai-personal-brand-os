@@ -1,11 +1,8 @@
 .env
-.env.*
-!.env.example
-
+.env.local
 *.key
 *.pem
-
 flows/*-with-secrets.json
-
+__pycache__/
 .DS_Store
-Thumbs.db
+node_modules/
